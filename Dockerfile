@@ -1,4 +1,4 @@
-FROM apache/nifi:latest
+FROM apache/nifi:1.28.1
 
 # Download the PostgreSQL JDBC driver (version 42.6.0)
 RUN curl -L -o /opt/nifi/nifi-current/lib/postgresql-42.6.0.jar \
